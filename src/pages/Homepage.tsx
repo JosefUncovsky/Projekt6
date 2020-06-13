@@ -1,14 +1,16 @@
-
+import Logo from '../static/logo.png'; 
 import Link from 'next/link';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
+
+
 export function Homepage()
 {
     return (
         <div className="App">
-         
+        <img src={Logo} alt="website logo" />
         
     
         <Link href="/clanky">
@@ -48,7 +50,17 @@ export function Homepage()
           font-size: 3rem;
         }
         .App{
-          background-color: skyblue;
+          background-color: #3792cb;
+        }
+        img{
+          position: absolute;
+          top: 0px;
+          right: 15px;
+          align-items: right;
+          width:225px;
+          height:200px;
+          
+        }
         }
         
         `}</style>

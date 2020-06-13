@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Button from '@material-ui/core/Button';
-//import Logo from './Logo.png';
+import Logo from '../static/logo.png';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 export default function Details()
 {
     return (
         <div className="App">
-         
+        <img src={Logo} alt="website-logo"/> 
         
     
         <Link href="/index">
@@ -47,9 +47,16 @@ export default function Details()
           font-size: 3rem;
         }
         .App{
-          background-color: skyblue;
+          background-color: #3792cb;
         }
-        
+        img{
+          position: absolute;
+          top: 0px;
+          right: 15px;
+          align-items: right;
+          width:225px;
+          height:200px;
+        }
         `}</style>
         </div>
       );
