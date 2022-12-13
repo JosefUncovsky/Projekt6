@@ -23,7 +23,7 @@
     "apollo-server-express": "^2.14.3",
     "class-validator": "^0.12.2",
     "css": "^2.2.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "file-loader": "^6.0.0",
     "graphql": "^15.1.0",
     "graphql-tag": "^2.10.3",
