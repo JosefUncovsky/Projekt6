@@ -21,7 +21,7 @@
     "apollo-link-http": "^1.5.17",
     "apollo-link-ws": "^1.0.20",
     "apollo-server-express": "^2.14.3",
-    "class-validator": "^0.12.2",
+    "class-validator": "^0.14.0",
     "css": "^2.2.4",
     "express": "^4.17.1",
     "file-loader": "^6.0.0",
